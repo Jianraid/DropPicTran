@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <title>AirBridge Transfer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+       ::-webkit-scrollbar { width: 6px; }
+       ::-webkit-scrollbar-track { background: #0f172a; }
+       ::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
+       ::-webkit-scrollbar-thumb:hover { background: #475569; }
+       .safe-area-pb { padding-bottom: env(safe-area-inset-bottom); }
+       body { background-color: #020617; } /* Slate-950 */
+    </style>
+</head>
+  <body class="bg-slate-950 text-slate-100 antialiased selection:bg-indigo-500 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+</body>
+</html>

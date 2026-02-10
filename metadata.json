@@ -1,0 +1,7 @@
+{
+  "name": "AirBridge Transfer",
+  "description": "Seamlessly transfer photos from mobile to PC via local network (WebRTC) by scanning a QR code. Features batch uploading and custom save settings.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
